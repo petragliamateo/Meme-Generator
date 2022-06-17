@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    background-color: #fff;
+    font-family: Inter , sans-serif;
+    font-weight: 400;
+}
+
+/*Navbar*/
+
+.Navbar{
+    display: flex;
+    background:linear-gradient(90deg, #3DAC5C, #1CCBE2);
+    color: aliceblue;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+.Navbar > *{
+    font-size: small;
+    margin: 15px;
+}
+.Navbar > div{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    height: 15px;
+}
+.Navbar > div > *{
+    margin: 5px;
+} 
+
+/*mEME*/
+
+.Meme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.MemeText{
+    display: flex;
+    justify-content: center;
+}
+.MemeText > *{
+    width: 200px;
+    height: 36px;
+    margin: 10px;
+}
+.MemeSubmit{
+    width: 435px;
+    height: 60px;
+    margin: 10px;
+    background: linear-gradient(90deg, #3DAC5C, #1CCBE2);
+    color: #fff;
+
+    font-size: large;
+    font-weight: 700;
+
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.MemeConteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    -webkit-text-stroke: 2px black;
+    /*text-shadow: -4px 0 black, 0 4px black, 4px 0 black, 0 -4px black;*/
+}
+.MemeImg{
+    width: 435px;
+}
+.MemeTextTop{
+    position: absolute;
+    top: 0;
+}
+.MemeTextBottom{
+    position: absolute;
+    bottom: 0%;
+}
+
+
+
+/*SignUp.js*/
+.SignUp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    border-radius: 5px;
+}
+.SignUp > *{
+    margin: 5px;
+    border-radius: 5px;
+}
