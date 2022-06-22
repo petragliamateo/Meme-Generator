@@ -7,7 +7,7 @@ function Navbar(){
                 <img src={icon}></img>
                 <h1>Meme Generator</h1>
             </div>
-            <h3>React Course - Proyect 3</h3>
+            <div></div>
         </div>
     )
 }
